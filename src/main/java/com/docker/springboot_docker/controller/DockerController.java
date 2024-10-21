@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DockerController {
 
+    String str = "uwuwufb";
+
     @GetMapping("/docker-demo")
     public String getValues()
     {
